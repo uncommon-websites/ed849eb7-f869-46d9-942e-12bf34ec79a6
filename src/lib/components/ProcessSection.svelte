@@ -3,31 +3,31 @@
 
   const steps = [
     {
-      id: "discover",
-      title: "Discover Novel Opportunities",
-      text: "The right problem is the one worth solving. We quickly uncover actionable opportunities through data and business insights, ensuring that every discovery is grounded in what matters most for your business and your users.",
-      tags: ["Business & Market Research", "Data Driven Insights", "UX Audits", "Customer Journey Mapping", "Brand Perception Analysis", "Technical Assessment"],
+      id: "strategy",
+      title: "Develop Your Brand Strategy",
+      text: "We start with a comprehensive brand strategy call to understand your goals, establish messaging, and identify what makes your story newsworthy. Our team of seasoned journalists knows how to position your AI or blockchain innovation within larger media narratives.",
+      tags: ["Brand Strategy Call", "Message Development", "Narrative Sharpening", "Target Audience Analysis", "Competitive Positioning", "Campaign Goal Setting"],
       graphic: "lines"
     },
     {
-      id: "envision",
-      title: "Envision Innovative Strategies",
-      text: "Great strategies don't just come from ideas—they come from clear, actionable plans. We create pragmatic roadmaps that balance ambition with feasibility, focusing on what will drive immediate and long-term impact for both business and users.",
-      tags: ["CX & Product Strategy", "Vision & Roadmapping", "Value Proposition Design", "Northstar Metric Framework", "Brand Strategy & Positioning", "Technical Solution Design"],
+      id: "outreach",
+      title: "Execute Strategic Media Outreach",
+      text: "Leveraging our direct relationships with editors at Bloomberg, Forbes, TechCrunch, Wired, and 100+ other top-tier publications, we pitch your story to the right journalists at the right time. Our network is your competitive advantage.",
+      tags: ["Targeted Media Lists", "Journalist Relationships", "Strategic Pitching", "Editor Connections", "Follow-up Management", "Opportunity Tracking"],
       graphic: "curve"
     },
     {
-      id: "build",
-      title: "Build Engaging Touchpoints",
-      text: "We turn strategy into action—fast and efficiently. Whether designing intuitive interfaces, visual identities, or building scalable platforms, we focus on building holistic experiences that are both joyful and effective.",
-      tags: ["UX & UI Design", "Information Architecture", "App & Web Design", "Design Systems", "Content Strategy", "Agile Software Engineering"],
+      id: "content",
+      title: "Create Compelling Content",
+      text: "Our journalistic background enables us to craft press releases, pitch emails, and articles that resonate with both technical and mainstream audiences. We translate complex innovations into stories that editors want to publish.",
+      tags: ["Press Release Writing", "Pitch Email Crafting", "Article Development", "Technical Translation", "Story Positioning", "Content Optimization"],
       graphic: "circle-top"
     },
     {
-      id: "elevate",
-      title: "Elevate Delivery Capabilities",
-      text: "We make sure teams can deliver better outcomes, faster. By evolving collaborative workflows, upskilling teams, and implementing the right tools, we help you scale with confidence and consistency.",
-      tags: ["AI Consulting", "QA & Delivery", "Process Optimization", "Performance Analytics", "Continuous Improvement", "Change Management"],
+      id: "deliver",
+      title: "Deliver Guaranteed Results",
+      text: "We provide 3-4 media opportunities per month including articles, placements, TV appearances, podcasts, and interviews. Monthly strategy calls ensure real-time adjustments based on your business developments. Press releases average 100 placements across major networks.",
+      tags: ["Weekly Press Coverage", "Monthly Strategy Calls", "Performance Reporting", "Campaign Adjustments", "Placement Tracking", "ROI Analysis"],
       graphic: "circle-waves"
     }
   ];
@@ -71,7 +71,7 @@
       <div class="space-y-8">
         {#each steps as step, i}
           <div class="transition-opacity duration-500 {i === activeStep ? 'opacity-100' : 'opacity-30'}">
-            <p class="text-xl md:text-2xl font-light mb-1">People work with us to</p>
+            <p class="text-xl md:text-2xl font-light mb-1">Our process to</p>
             <h2 class="text-2xl md:text-3xl font-bold">{step.title}</h2>
           </div>
         {/each}

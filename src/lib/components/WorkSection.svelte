@@ -1,53 +1,31 @@
 <script lang="ts">
   const projects = [
     {
-      client: "Red Bull",
-      desc: "A global platform built to Scale, Evolve, and Perform.",
-      bg: "bg-[#000c2d]",
-      img: "", // Placeholder logic handled in template
+      client: "Vetter Ecosystem",
+      desc: "Presale sold out in 3 minutes. Grew Telegram from 0 to 18,000 members in 2 weeks. 8-figure presale launch.",
+      bg: "bg-black",
+      img: "/generated/image-blockchain-startup-founder-presenting-at-1765569156533-4.webp",
       dark: true
     },
     {
-      client: "Volvo",
-      desc: "Redefining how people experience insurance.",
-      bg: "bg-gray-200",
-      img: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&q=80&w=800",
+      client: "Christian Santiago",
+      desc: "93% website traffic increase in first 2 weeks through strategic media placements.",
+      bg: "bg-gray-100",
+      img: "/generated/image-ai-technology-company-office-space-moder-1765569159086-5.webp",
       dark: false
     },
     {
-      client: "The Organics",
-      desc: "Translating a refreshing identity into a bold platform.",
-      bg: "bg-[#8da356]",
-      img: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&q=80&w=800",
-      dark: false
-    },
-    {
-      client: "Isar Aerospace",
-      desc: "Launching a brand journey into orbit.",
-      bg: "bg-black",
+      client: "Lanette Pinkard",
+      desc: "Waiting list grew from 15-20 to 90 people. Secured multi-billion dollar company as first sponsor.",
+      bg: "bg-gray-900",
       img: "",
       dark: true
     },
     {
-      client: "REWE",
-      desc: "Digital Convenience in your Pocket.",
-      bg: "bg-[#f0f0f0]",
-      img: "https://images.unsplash.com/photo-1512428559087-560fa5ce7d87?auto=format&fit=crop&q=80&w=800",
-      dark: false,
-      full: true // Making REWE full width to align last two items
-    },
-    {
-      client: "Alpha Tauri",
-      desc: "Designing the interface of wearable intelligence.",
-      bg: "bg-[#e0e0e0]",
-      img: "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&q=80&w=800",
-      dark: false
-    },
-    {
-      client: "Zalando",
-      desc: "Designing the Zalando E-Commerce Operating System.",
-      bg: "bg-[#d8c5f0]",
-      img: "https://images.unsplash.com/photo-1555421689-49263376da7a?auto=format&fit=crop&q=80&w=800",
+      client: "Galen M. Hair",
+      desc: "Substantial business growth with clients citing media appearances as reason for contact.",
+      bg: "bg-gray-100",
+      img: "",
       dark: false
     }
   ];
@@ -56,20 +34,20 @@
 <section class="px-6 md:px-12 py-24 bg-white">
   <div class="max-w-3xl mb-16">
     <h2 class="text-2xl md:text-3xl font-medium leading-tight">
-      <span class="font-bold">We orchestrate strategy, design, and technology</span> to create digital experiences that connect with millions and give you the edge that sets you apart.
+      <span class="font-bold">We secure guaranteed weekly press coverage</span> for AI and blockchain companies, delivering 3-4 media opportunities per month including articles, TV appearances, podcasts, and interviews.
     </h2>
   </div>
 
   <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-12">
     {#each projects as project}
-      <div class="group cursor-pointer {project.full ? 'md:col-span-2' : ''}">
-        <div class={`aspect-[4/3] w-full rounded-lg overflow-hidden relative ${project.bg} mb-4 ${project.full ? 'md:aspect-[2.5/1]' : ''}`}>
+      <div class="group cursor-pointer">
+        <div class={`aspect-[4/3] w-full rounded-lg overflow-hidden relative ${project.bg} mb-4`}>
           {#if project.img}
              <img src={project.img} alt={project.client} class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
           {:else}
-             <!-- Placeholder for logos on solid bg -->
-             <div class="w-full h-full flex items-center justify-center">
-                <span class={`text-2xl font-bold ${project.dark ? 'text-white' : 'text-black'}`}>{project.client} Logo</span>
+             <!-- Placeholder for case studies on solid bg -->
+             <div class="w-full h-full flex items-center justify-center p-8">
+                <span class={`text-xl font-bold text-center ${project.dark ? 'text-white' : 'text-black'}`}>{project.client}</span>
              </div>
           {/if}
         </div>

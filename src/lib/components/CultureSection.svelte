@@ -1,19 +1,19 @@
 <script lang="ts">
   const cards = [
     {
-      title: "We're Not Just a Vendor...",
-      subtitle: "We're Your Partner In Crime.",
-      image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800"
+      title: "We're Not Just Publicists...",
+      subtitle: "We're Seasoned Journalists.",
+      image: "/generated/image-professional-journalist-or-editor-workin-1765569153949-3.webp"
     },
     {
-      title: "We Don't Just Follow Trends...",
-      subtitle: "We Shape New Territories.",
-      image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800"
+      title: "We Don't Promise Coverage...",
+      subtitle: "We Guarantee It Weekly.",
+      image: "/generated/image-confident-pr-professional-on-phone-call--1765569148859-1.webp"
     },
     {
-      title: "We Don't Play By The Book...",
-      subtitle: "We Write It Together.",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800"
+      title: "We Don't Just Send Pitches...",
+      subtitle: "We Leverage Direct Relationships.",
+      image: "/generated/image-pr-team-celebrating-success-high-fiving--1765569151497-2.webp"
     }
   ];
 </script>
@@ -21,7 +21,7 @@
 <section class="py-24 px-6 md:px-12 bg-white">
   <div class="max-w-2xl mb-16">
     <p class="text-xl md:text-2xl leading-relaxed text-gray-800">
-      Collaboration isn't just a buzzword—it's how we roll. We're not here to hand off some cookie-cutter deliverable and disappear; we're in it with you, from day one.
+      Our team comprises seasoned journalists who bring narrative mastery and direct media relationships. This journalistic insight enables us to identify what's newsworthy and position your story within larger media narratives that editors care about.
     </p>
   </div>
 

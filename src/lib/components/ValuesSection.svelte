@@ -1,28 +1,28 @@
 <script lang="ts">
   const photos = [
     {
-      title: "Fitness Meets Work",
-      desc: "Stay healthy with our dedicated gym and personal training part of our employee wellness program.",
-      img: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=400"
+      title: "Expert Content Creation",
+      desc: "Our team of seasoned journalists crafts compelling press releases, pitch emails, and articles that translate complex AI and blockchain innovations into stories editors want to publish.",
+      img: "/generated/image-pr-professional-writing-press-release-on-1765569164113-7.webp"
     },
     {
-      title: "Your Social Hub",
-      desc: "Located in vibrant city centers, our offices are places for connection and face-to-face collaboration.",
-      img: "https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?auto=format&fit=crop&q=80&w=400"
+      title: "Guaranteed Media Placements",
+      desc: "We don't just promise coverage—we deliver guaranteed weekly press coverage with 3-4 media opportunities per month including TV appearances, podcasts, and top-tier publications.",
+      img: "/generated/image-media-interview-setup-with-cameras-and-l-1765569166610-8.webp"
     },
     {
-      title: "Fueling Creativity",
-      desc: "We care about good food—our in-house chef ensures everyone stays energized and inspired.",
-      img: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=400"
+      title: "Data-Driven Results",
+      desc: "Monthly PR strategy calls with dedicated publicists ensure real-time campaign adjustments. We track performance and optimize based on your business developments and market dynamics.",
+      img: "/generated/image-business-professional-reviewing-analytic-1765569169231-9.webp"
     }
   ];
 </script>
 
 <section class="py-24 px-6 md:px-12 bg-white">
   <div class="max-w-xl mb-16">
-    <h3 class="text-lg font-bold mb-2">We focus on people, not just projects.</h3>
+    <h3 class="text-lg font-bold mb-2">Specialized expertise in AI and blockchain PR.</h3>
     <p class="text-gray-500 text-sm leading-relaxed">
-      In a world of digital meetings, we value face-to-face connections. Our culture is built on trust, freedom, and support, fostering personal growth and collaboration that goes beyond just completing tasks—it's about enjoying the journey together.
+      We exclusively focus on AI and blockchain companies, bringing deep understanding of complex, rapidly-evolving technologies. Our journalistic background enables us to position your innovations within larger media narratives that resonate with both technical and mainstream audiences.
     </p>
   </div>
 

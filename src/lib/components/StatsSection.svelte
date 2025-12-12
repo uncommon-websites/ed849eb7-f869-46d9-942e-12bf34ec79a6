@@ -1,24 +1,24 @@
 <script lang="ts">
   const stats = [
     {
-      label: "30+ People",
-      desc: "You're a small, but mighty team of curious problem-solvers and explorers. With a versatile, Swiss-knife mentality, we thrive on tackling diverse challenges. Our core team is tight-knit, yet we seamlessly tap into a wider network of experts when needed. Here, theory meets practice, and together, we get things done.",
-      img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200"
+      label: "100+ Media Outlets",
+      desc: "We maintain direct relationships with editors and journalists at major publications including Bloomberg, Forbes, Entrepreneur, TechCrunch, Wired, Inc, Fast Company, Yahoo Finance, Business Insider, MarketWatch, Cointelegraph, and many more. Our network is your advantage.",
+      img: "/generated/image-professional-pr-team-strategizing-in-mod-1765569145726-0.webp"
     },
     {
-      label: "14+ Awards",
-      desc: "Our work speaks for itself—recognized internationally, we've already earned some awards. These accolades reflect the passion and innovation we pour into every project, pushing boundaries and delivering results that make an impact.",
-      img: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=200"
+      label: "Industry Recognition",
+      desc: "Best PR Firm in Las Vegas by Expertise. Top PR Firm by Mirror Agency. Member of Rolling Stone Culture Council and Forbes Agency Council. Our work and reputation speak for themselves.",
+      img: "/generated/image-pr-team-celebrating-success-high-fiving--1765569151497-2.webp"
     },
     {
-      label: "CGN, BLN, Remote",
-      desc: "Headquartered in Cologne, with an expanding team in Berlin, we also embrace remote work. Our colleagues span across cities like Barcelona, Stuttgart, Munich, and more, bringing a mix of perspectives and expertise to everything we do. Whether in the office or working remotely, we stay connected and collaborative.",
-      img: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=200"
+      label: "3-4 Opportunities/Month",
+      desc: "Average 3-4 media opportunities per month including articles, placements, press releases, TV appearances, podcasts, and interviews. Press releases achieve average of 100 placements across networks including Yahoo Finance, NBC, CBS, FOX, and 100 additional syndications.",
+      img: "/generated/image-media-interview-setup-with-cameras-and-l-1765569166610-8.webp"
     },
     {
-      label: "B-Corp",
-      desc: "We've officially joined the ranks of B-Corp certified companies. This means we meet the highest standards of social and environmental performance, accountability, and transparency. We're proud to use business as a force for good, ensuring our impact extends beyond just profit.",
-      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/B_Corp_Logo.svg/1200px-B_Corp_Logo.svg.png" // Placeholder
+      label: "$10K-$12K/Month",
+      desc: "Transparent pricing with no hidden fees. Month-to-month at $12,000/month or 6-month commitment at $10,000/month (saves $12,000 total). Compared to competitors, we deliver 3x more coverage volume with guaranteed weekly press coverage vs sporadic quarterly coverage.",
+      img: "/generated/image-business-professional-reviewing-analytic-1765569169231-9.webp"
     }
   ];
 </script>
@@ -26,7 +26,7 @@
 <section class="py-24 px-6 md:px-12 bg-white border-t border-gray-100">
   <div class="mb-16">
     <p class="text-gray-500 max-w-xl">
-      Curious about who we are? Here's a snapshot of the team, our achievements, and the milestones we're proud of.
+      The numbers that matter. Here's what sets Victorious PR apart in the competitive landscape of AI and blockchain public relations.
     </p>
   </div>
 
